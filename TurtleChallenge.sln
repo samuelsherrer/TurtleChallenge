@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TurtleChallenge.Console", "src\TurtleChallenge.Console\TurtleChallenge.Console.csproj", "{F4C719F0-62A5-437B-910A-18865DF71002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleChallenge.Application", "src\TurtleChallenge.Application\TurtleChallenge.Application.csproj", "{088096CC-A065-45C7-8D1C-4563D04A2705}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{5F770595-F63A-40D4-A492-D514C5D72DD5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TurtleChallenge.Applicaton.Tests", "tests\TurtleChallenge.Applicaton.Tests\TurtleChallenge.Applicaton.Tests.csproj", "{DBF2803E-0845-4D70-9613-74A084513CC9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4C719F0-62A5-437B-910A-18865DF71002}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4C719F0-62A5-437B-910A-18865DF71002}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4C719F0-62A5-437B-910A-18865DF71002}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4C719F0-62A5-437B-910A-18865DF71002}.Release|Any CPU.Build.0 = Release|Any CPU
+		{088096CC-A065-45C7-8D1C-4563D04A2705}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088096CC-A065-45C7-8D1C-4563D04A2705}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088096CC-A065-45C7-8D1C-4563D04A2705}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088096CC-A065-45C7-8D1C-4563D04A2705}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF2803E-0845-4D70-9613-74A084513CC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF2803E-0845-4D70-9613-74A084513CC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF2803E-0845-4D70-9613-74A084513CC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF2803E-0845-4D70-9613-74A084513CC9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DBF2803E-0845-4D70-9613-74A084513CC9} = {5F770595-F63A-40D4-A492-D514C5D72DD5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5EA7CD44-7B6A-4A85-AA43-2D877DBC7C41}
+	EndGlobalSection
+EndGlobal
