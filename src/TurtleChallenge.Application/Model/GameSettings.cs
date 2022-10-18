@@ -28,7 +28,7 @@ namespace TurtleChallenge.Application.Model
             if (point.X < 0 || point.X > HorizontalSize)
                 throw new ArgumentOutOfRangeException(nameof(point));
 
-            if (point.X < 0 || point.Y > VerticalSize)
+            if (point.Y < 0 || point.Y > VerticalSize)
                 throw new ArgumentOutOfRangeException(nameof(point));
         }
     }
